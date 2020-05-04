@@ -2,8 +2,9 @@ import java.util.*;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class calculatrice{
-
+public class calculatrice {
+private JPanel container = new JPanel();
+  //Tableau stockant les éléments à afficher dans la calculatrice
  public static void main(String[] args){
   int tab[]= new int[50];
   int i;
