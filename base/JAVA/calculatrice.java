@@ -41,7 +41,23 @@ private JPanel container = new JPanel();
     chiffre.setPreferredSize(new Dimension(165, 225));
     JPanel panEcran = new JPanel();
     panEcran.setPreferredSize(new Dimension(220, 30));
+ <%
+   int carre= (Integer)(request.getservletrequest("/carrejava));
 
+    %>
+</p> <%
+    int rectangle= (Integer)(request.getservletrequest("/rectanglejava));
+
+    %>
+</p> <%
+    String name = (String) request.getAttribute("Hello world!");
+    out.println(Hello world!);
+    %>
+
+
+    
+    
+    
     //On parcourt le tableau initialisé
     //afin de créer nos boutons
     for(int i = 0; i < tab_string.length; i++){
